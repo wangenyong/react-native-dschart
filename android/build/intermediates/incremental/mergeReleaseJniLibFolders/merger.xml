@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/wangenyong/react-native/library/zhugarden/node_modules/react-native-dschart/android/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/wangenyong/react-native/library/zhugarden/node_modules/react-native-dschart/android/src/release/jniLibs"/></dataSet></merger>
