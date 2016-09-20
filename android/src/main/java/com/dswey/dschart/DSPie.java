@@ -9,10 +9,10 @@ import android.view.View;
 /**
  * Created by wangenyong on 16/9/19.
  */
-public class Pie extends View {
+public class DSPie extends View {
     private Paint mPaint;
 
-    public Pie(Context context) {
+    public DSPie(Context context) {
         super(context);
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     }
