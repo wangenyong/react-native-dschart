@@ -1,4 +1,4 @@
 import { requireNativeComponent } from 'react-native';
 
 // requireNativeComponent automatically resolves this to "RCTMapManager"
-module.exports = requireNativeComponent('DSChart', null);
+module.exports = requireNativeComponent('DSPie', null);

@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0BBE8AE1D8E60DE008F5B98 /* DSChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BBE8AD1D8E60DE008F5B98 /* DSChart.m */; };
-		C0BBE8AF1D8E60DE008F5B98 /* DSChart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0BBE8AC1D8E60DE008F5B98 /* DSChart.h */; };
-		C0BBE8BE1D8E6AE4008F5B98 /* DSChartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BBE8BD1D8E6AE4008F5B98 /* DSChartManager.m */; };
+		C0BBE9071D910BA9008F5B98 /* DSPie.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BBE9061D910BA9008F5B98 /* DSPie.m */; };
+		C0BBE90A1D910BE9008F5B98 /* DSPieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BBE9091D910BE9008F5B98 /* DSPieManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +18,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C0BBE8AF1D8E60DE008F5B98 /* DSChart.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		C0BBE8A91D8E60DE008F5B98 /* libDSChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0BBE8AC1D8E60DE008F5B98 /* DSChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSChart.h; sourceTree = "<group>"; };
-		C0BBE8AD1D8E60DE008F5B98 /* DSChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSChart.m; sourceTree = "<group>"; };
-		C0BBE8BC1D8E6AE4008F5B98 /* DSChartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSChartManager.h; sourceTree = "<group>"; };
-		C0BBE8BD1D8E6AE4008F5B98 /* DSChartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSChartManager.m; sourceTree = "<group>"; };
+		C0BBE9051D910BA9008F5B98 /* DSPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPie.h; sourceTree = "<group>"; };
+		C0BBE9061D910BA9008F5B98 /* DSPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPie.m; sourceTree = "<group>"; };
+		C0BBE9081D910BE9008F5B98 /* DSPieManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPieManager.h; sourceTree = "<group>"; };
+		C0BBE9091D910BE9008F5B98 /* DSPieManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPieManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +61,10 @@
 		C0BBE8AB1D8E60DE008F5B98 /* DSChart */ = {
 			isa = PBXGroup;
 			children = (
-				C0BBE8AC1D8E60DE008F5B98 /* DSChart.h */,
-				C0BBE8AD1D8E60DE008F5B98 /* DSChart.m */,
-				C0BBE8BC1D8E6AE4008F5B98 /* DSChartManager.h */,
-				C0BBE8BD1D8E6AE4008F5B98 /* DSChartManager.m */,
+				C0BBE9051D910BA9008F5B98 /* DSPie.h */,
+				C0BBE9061D910BA9008F5B98 /* DSPie.m */,
+				C0BBE9081D910BE9008F5B98 /* DSPieManager.h */,
+				C0BBE9091D910BE9008F5B98 /* DSPieManager.m */,
 			);
 			path = DSChart;
 			sourceTree = "<group>";
@@ -129,8 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BBE8AE1D8E60DE008F5B98 /* DSChart.m in Sources */,
-				C0BBE8BE1D8E6AE4008F5B98 /* DSChartManager.m in Sources */,
+				C0BBE9071D910BA9008F5B98 /* DSPie.m in Sources */,
+				C0BBE90A1D910BE9008F5B98 /* DSPieManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
